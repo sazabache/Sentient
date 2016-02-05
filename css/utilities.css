@@ -42,11 +42,11 @@
 }
 .size-h2{
 	font-size: 45px;
-	font-family: "proximanova-ligth-webfont";
+	font-family: "proximanova-light-webfont";
 }
 .size-h2{
 	font-size: 30px;
-	font-family: "proximanova-ligth-webfont";
+	font-family: "proximanova-light-webfont";
 }
 .text-cuerpo{
 	font-size: 18px;
@@ -59,5 +59,14 @@
 }
 .text-quote{
 	font-size: 24px;
-	font-family: "proximanova-ligth-webfont";
+	font-family: "proximanova-light-webfont";
+}
+.pd-tp-5{
+	padding-top: 5%;
+}
+.interline{
+	line-height: 1.5;
+}
+.interline2{
+	line-height: 1.7;
 }
