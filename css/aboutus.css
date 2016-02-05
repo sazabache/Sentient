@@ -1,1 +1,24 @@
-dhsefsgvfhsdfhn
+/*section*/
+.trading{
+    width: 100%;
+    background-color: white;
+    padding: 5%;
+}
+.trading img{
+    float: left;
+    padding-right: 2%;
+    position: absolute;
+}
+.trading img:first-child{
+    position: absolute;
+    top: 55px;
+    left: 0px;
+}
+.trading img:last-child{
+    position: absolute;
+    top: 203px;
+    left: 240px;
+    -webkit-transform: rotate(180deg);
+
+    }
+
