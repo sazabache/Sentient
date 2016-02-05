@@ -14,13 +14,25 @@
 .text-graylight{
 	color: #F6F6F6;
 }
+.text-white{
+	color: white;
+}
 
 /*Color de backgrouds*/
 .bg-lightblue{
-	color: #179AD6;
+	background-color: #179AD6;
 }
 .bg-blue{
 	background-color: #002366;
+}
+.bg-grayheavy{
+	background-color: #606060;
+}
+.bg-graymedium{
+	background-color: #979797;
+}
+.bg-graylight{
+	background-color: #F6F6F6;
 }
 
 /*tamaño de títulos*/
