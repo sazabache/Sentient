@@ -2,5 +2,9 @@
 	background-image: url("../img/hero-image.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 20% 10%;
+	padding: 15% 10%;
+}
+
+.banner img{
+	
 }
