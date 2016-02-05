@@ -1,23 +1,23 @@
 *{
-    font-family: "proximanova-ligth-webfont";
+    font-family: "proximanova-light-webfont";
 }
 
 
 @font-face{
     font-family: proximanova-bold-webfont;
-    src: url(../fonts/proxima nova/proximanova-bold-webfont.ttf);
+    src: url(../fonts/proxima-nova/proximanova-bold-webfont.ttf);
 }
 @font-face{
     font-family: proximanova-light-webfont;
-    src: url(../fonts/proxima nova/proximanova-light-webfont.ttf);
+    src: url(../fonts/proxima-nova/proximanova-light-webfont.ttf);
 }
 @font-face{
     font-family: proximanova-regitalic-webfont;
-    src: url(../fonts/proxima nova/proximanova-regitalic-webfont.ttf);
+    src: url(../fonts/proxima-nova/proximanova-regitalic-webfont.ttf);
 }
 @font-face{
     font-family: proximanova-regular-webfont;
-    src: url(../fonts/proxima nova/proximanova-regular-webfont.ttf);
+    src: url(../fonts/proxima-nova/proximanova-regular-webfont.ttf);
 }
 
 
