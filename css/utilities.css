@@ -1,0 +1,51 @@
+/*Color de textos*/
+.text-blue{
+	color: #002366;
+}
+.text-lightblue{
+	color: #179AD6;
+}
+.text-grayheavy{
+	color: #606060;
+}
+.text-graymedium{
+	color: #979797;
+}
+.text-graylight{
+	color: #F6F6F6;
+}
+
+/*Color de backgrouds*/
+.bg-lightblue{
+	color: #179AD6;
+}
+.bg-blue{
+	background-color: #002366;
+}
+
+/*tamaño de títulos*/
+.size-h1{
+	font-size: 50px;
+	font-family: "proximanova-regular-webfont";
+}
+.size-h2{
+	font-size: 45px;
+	font-family: "proximanova-ligth-webfont";
+}
+.size-h2{
+	font-size: 30px;
+	font-family: "proximanova-ligth-webfont";
+}
+.text-cuerpo{
+	font-size: 18px;
+	font-family: "proximanova-regular-webfont";
+}
+.text-recuadro{
+	font-size: 14px;
+	text-align: center;
+	font-family: "proximanova-regular-webfont";
+}
+.text-quote{
+	font-size: 24px;
+	font-family: "proximanova-ligth-webfont";
+}

@@ -1,5 +1,5 @@
 *{
-    font-family: "proximanova-light-webfont";
+    font-family: "proximanova-regular-webfont";
 }
 
 
@@ -22,31 +22,33 @@
 
 
 header{
-    padding: 0.5% 5%;
+    padding: 0.3% 5%;
     margin: auto;
     position: fixed;
     width: 100%;
     background-color: white;
-    border-bottom: 1px solid #E3E2DE;
+    border-bottom: 2px solid #F6F6F6;
 
 }
 nav{
      list-style-type: none;
-     text-align: center;
+    
+
 }
-.header li{
-    font-family: 'proximanova-ligth-webfont';
-    color: #404040;
+header nav li{
+    
+    
+   color: #606060;
     float: right;
     padding-right: 5%;
-    padding-top: 6%;
-    font-size: 1.3em;
+    padding-top: 8%;
+    font-size: 1.2em;
 
 }
 
 a{
     text-decoration: none;
-     color: #404040;
+    color: #606060;
 }
 section{
     width: 100%;
@@ -58,15 +60,30 @@ section{
 footer{
     margin: auto;
     width: 100%;
+    text-align: center;
     
 }
 
-.footer{
+footer li{
 
-    color: #404040;
+    color: #606060;
     display: inline-block;
     font-size: 1.3em;
-    padding: 0% 2%;
+    padding: 0% 0.5%;
     
    
+}
+
+.iconos img{
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+.privacy{
+    font-size: 0.7em;
+    padding-top: 1.5%;
+    color: #979797;
+}
+.privacy a{
+    color: #979797;
 }
