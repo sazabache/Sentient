@@ -1,11 +1,91 @@
+.container1{
+	width: 100%;
+	padding:0 7px;
+	position: relative;
+}
+
 .banner{
-	background-image: url("../img/hero-image-hd.jpg");
+	background-image: url("../img/hero-image.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 10% 5%;
+	padding: 14% 5% 5% 5%;
 }
 
 .banner img{
-	
+	margin-top: 5%;
+}
+
+.description{
+	padding: 77px 210px;
+}
+
+.description p:first-child{
+	font-size: 25px;
+	color: grey;
+	line-height: 35px;
+	font-family: "proximanova-light-webfont";
+}
+
+.description p:last-child{
+	font-size: 30px;
+	margin-top: 77px;
+	font-family: "proximanova-light-webfont";
+}
+
+.div-home{
+	border: 1px solid #979797;	
+	height: 300px;
+	padding: 10%;
+	line-height: 21px;
+}
+
+.div-home h2{
+	margin: 10% 0;
+}
+
+.tres-div{
+	padding: 7px 168px 100px 168px;
+}
+
+.contact-us{
+	background-image: url("../img/background-contac-us.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 91px 200px 77px 200px;
+}
+
+.contact-us h2{
+	font-size: 42px;
+}
+
+.contact-us p{
+	font-size: 28px;
+	margin: 35px 0;
+}
+
+form {
+    margin-top:30px;
+}
+
+input {
+	width: 470px;
+	color:#979797; /*grey*/
+	font-size: 28px;
+	padding: 13px;
+	margin: auto;
+	margin-bottom: 14px;
+ 	border: 2px solid #dad7d7; /*grey*/
+ 	display: block;
+ 	text-align: center;
+}
+
+.btn-send{
+	width: 235px;
+	color:white;
+	font-size:28px;
+	padding: 9px 0;
+	border-radius: 3%;
+  	margin-top:28px;
+	border: none;
 }
 
