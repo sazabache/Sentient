@@ -21,7 +21,7 @@
 
 .description p:first-child{
 	font-size: 25px;
-	color: grey;
+	color: gray;
 	line-height: 35px;
 	font-family: "proximanova-light-webfont";
 }
@@ -51,7 +51,7 @@
 	background-image: url("../img/background-contac-us.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 91px 200px 77px 200px;
+	padding: 91px 50px 77px 50px;
 }
 
 .contact-us h2{
@@ -89,3 +89,66 @@ input {
 	border: none;
 }
 
+/*** movil***/
+
+@media screen and (max-width: 480px) {
+
+    .banner{
+    	padding: 35% 10% 5% 10%;
+    }
+
+    .description{
+	padding: 14% 16%;
+	}	
+
+	.tres-div{
+	padding: 0;
+	}
+
+    .container1 .col-4{
+    	width: 100%;
+    	display: block;
+    	margin-top: 21px;
+    	padding: 0 14px;
+    }
+
+    .div-home{
+    height: 350px;
+	padding: 10%;
+	line-height: 28px;
+	}
+
+	.div-home h2{
+	font-size: 28px;
+	}
+
+	.div-home p{
+	font-size: 18px;
+	}
+
+    .contact-us{
+	background:none;
+	background-color: white;
+	color: #979797;
+	}
+
+	.contact-us h2{
+	font-size: 42px;
+	color: 
+	}
+	
+	.contact-us p{
+	font-size: 21px;
+	margin: 35px 0;
+	color: #606060;
+	}
+
+    input {
+	width: 100%;
+	}
+
+	.btn-send{
+	width: 100%;
+	padding: 13px;
+	}
+}
