@@ -44,7 +44,7 @@
 	font-size: 45px;
 	font-family: "proximanova-light-webfont";
 }
-.size-h2{
+.size-h3{
 	font-size: 30px;
 	font-family: "proximanova-light-webfont";
 }
@@ -63,6 +63,9 @@
 }
 .pd-tp-5{
 	padding-top: 5%;
+}
+.pd-tp-3{
+	padding-top: 3%;
 }
 .interline{
 	line-height: 1.5;

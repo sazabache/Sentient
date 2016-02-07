@@ -23,8 +23,8 @@
 /*header*/
 header{
     padding: 0.25% 5%;
-    margin: auto;
     position: fixed;
+    margin: auto;
     width: 100%;
     background-color: white;
     border-bottom: 2px solid #F6F6F6;
@@ -49,6 +49,7 @@ header nav a{
 header nav a:first-child{
 border-right: 1px solid #606060;
 }
+
 a{
     text-decoration: none;
     color: #606060;
@@ -95,6 +96,9 @@ footer li{
     font-size: 0.78em;
     padding-top: 1%;
    }
+footer nav{
+    padding-top: 2%;
+}
 
 footer p{
     font-size: 0.8em;
