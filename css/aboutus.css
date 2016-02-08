@@ -40,12 +40,12 @@
 	
 }
 .espacio-text{
-	padding-left: 10%;
-	padding-right: 13%;
+	padding-left: 18%;
+	padding-right: 18%;
 }
 .espacio-sound{	
 	padding-top: 10%;
-	padding-left: 40px;
+	padding-left: 21%;
 }
 .btn-lightblue{
 	background-color: #179AD6;
@@ -66,15 +66,23 @@
 .espacio-2btn{
 	padding: 4% 8%;
 	}
+
+.mg-tp{
+	margin-top: 0;
+}
 .espacio-text2{
-	padding-left: 9%;
-	padding-right: 8%;
+	padding-left: 15%;
+	padding-right: 18%;
 	padding-top: 3%
 }
+
+.Management{
+	background-color: #F6F6F6;
+	margin: 0;
+}
 .espacio-please{	
-	padding-top: 10%;
-	padding-left: 90px;
-	padding-right: 90px;
+	padding-top: 8%;
+	margin: 0% 15%;
 	padding-bottom: 3%;
 }
 
@@ -87,3 +95,35 @@
 	margin: auto;
 	}
 
+.fotos{
+	padding-left: 30%;
+	padding-right: 30%;
+
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.img-foto{
+	width: 100%;
+}
+
+.fondo-blanco{
+	background-color: white;
+	padding: 13% 0%;
+}
+.fotos2{
+	padding-left: 20%;
+	padding-right: 20%;
+
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.fondo-blanco2{
+	background-color: white;
+	padding: 8% 0%;
+}
