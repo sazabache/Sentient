@@ -1,6 +1,23 @@
 *{
     font-family: "proximanova-regular-webfont";
 }
+
+@font-face{
+    font-family: proximanova-bold-webfont;
+    src: url(../fonts/proxima-nova/proximanova-bold-webfont.ttf);
+}
+@font-face{
+    font-family: proximanova-light-webfont;
+    src: url(../fonts/proxima-nova/proximanova-light-webfont.ttf);
+}
+@font-face{
+    font-family: proximanova-regitalic-webfont;
+    src: url(../fonts/proxima-nova/proximanova-regitalic-webfont.ttf);
+}
+@font-face{
+    font-family: proximanova-regular-webfont;
+    src: url(../fonts/proxima-nova/proximanova-regular-webfont.ttf);
+}
 .persona{
 	padding:126px 7px 49px 7px;
 	}
@@ -69,5 +86,7 @@ header nav a{
 header nav a:first-child{
 	border-right: 2px solid #606060;
 }
-header nav a:last-child{
-	margin-left:-10px;
+
+@media screen and (max-width: 640px) {
+	
+}
