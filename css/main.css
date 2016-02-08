@@ -10,7 +10,7 @@
 }
 
 .description{
-	padding: 77px 210px;
+	padding: 135px 215px;
 }
 
 .description p:first-child{
@@ -83,6 +83,12 @@ input {
 	border: none;
 }
 
+.btn-send:hover{
+	background-color: rgba(0,0,0,0);
+}
+
+
+
 /*** movil***/
 
 @media screen and (max-width: 768px) {
@@ -149,7 +155,7 @@ input {
 
 @media screen and (max-width: 1200px) {
  	.tres-div{
-	padding: 7px 35px 100px 35px;
+	padding: 7px 35px 100px 21px;
 	}
 
 	.div-home h2{
