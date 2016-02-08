@@ -1,5 +1,8 @@
+*{
+    font-family: "proximanova-regular-webfont";
+}
 .persona{
-	padding:63px 7px;
+	padding:126px 7px 49px 7px;
 	}
 
 .persona h1{
@@ -28,3 +31,43 @@
 	width: 60%;
 	margin-bottom: 56px;
 }
+
+/***footer***/
+header img{
+	float: left;
+}
+
+header nav{
+	float: right;
+	padding: 21px 40px 15px 0;	
+	color: #606060;
+}
+
+header{
+	height: 90px;
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	border-bottom: 2px solid #F6F6F6;
+	background-color: white;
+}
+
+a{
+	text-decoration: none;
+
+}
+
+header nav a{
+	font-size: 20px;
+	font-family: "proximanova-regular-webfont";
+	padding: 0 28px;
+	margin-right: 5px;
+	color: #606060;	
+}
+
+header nav a:first-child{
+	border-right: 2px solid #606060;
+}
+header nav a:last-child{
+	margin-left:-10px;
