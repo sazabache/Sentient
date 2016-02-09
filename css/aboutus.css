@@ -12,9 +12,11 @@
 .trading p{
 	padding-left: 7%;
 	padding-top: 0%;
+	display: inline-block;
 }
 .comilla2{;
     -webkit-transform: rotate(180deg);
+    display: inline-block;
     }
 
 /*section 2*/
@@ -26,46 +28,6 @@
 	text-align: center;
 }
 
-.btn-blue{
-	background-color: #002366;
-	border-radius: 5px;	
-	width: 26%;
-	margin: auto;
-	margin-top: 2.5%;
-	margin-bottom: 2.5%;
-}
-
-.espacio-btn{
-	padding: 2.5%;
-	
-}
-.espacio-text{
-	padding-left: 18%;
-	padding-right: 18%;
-}
-.espacio-sound{	
-	padding-top: 10%;
-	padding-left: 21%;
-}
-.btn-lightblue{
-	background-color: #179AD6;
-	border-radius: 5px;	
-	width: 220px;
-	margin-top: 25%;
-	margin-bottom: 2.5%;
-	margin-left: 5%;
-	}
-.btn-transparent{
-	border: 1px solid white;
-	border-radius: 5px;	
-	width: 220px;
-	margin-top: 25%;
-	margin-bottom: 2.5%;
-	margin-left: 5%;
-	}
-.espacio-2btn{
-	padding: 4% 8%;
-	}
 
 .mg-tp{
 	margin-top: 0;
@@ -105,8 +67,24 @@
     margin-bottom: 5%;
 }
 
+.Management .col-6, .col-4{
+	padding-right: 5%;
+}
 .img-foto{
 	width: 100%;
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+ }    
+.img-foto:hover{
+	  
+  -webkit-transform: scale(1.2);
+     -moz-transform:  scale(1.2);
+       -o-transform:  scale(1.2);
+      -ms-transform:  scale(1.2);
+          transform:  scale(1.2);
+       
 }
 
 .fondo-blanco{
@@ -128,10 +106,61 @@
 	padding: 8% 0%;
 }
 
+.btn-blue-dark {
+	color: white;
+    border-color: #002366;
+    background-color: #002366;
+    font-size: 1.5rem !important;
+    padding: 7px 56px !important;
+}
+
+.btn-blue-dark:hover {
+	color: white !important;
+}
+
+.btn-skyblue {
+	color: white;
+    border-color: #179AD6;
+    background-color: #179AD6;
+    font-size: 1.4rem !important;
+    padding: 7px 63px !important;
+}
+
+.text-aply {
+	font-weight: 300 !important;
+    font-family: "proximanova-light-webfont" !important;
+    padding: 7px 21px !important;
+    font-size: 1.4rem;
+}
+
+.mv-63 {
+	margin: 63px 0px !important;
+}
+
+.mt-35 {
+	margin-top: 35px !important;
+}
+
+.btn-outline-white {
+	background: none;
+    border: 1px solid white !important;
+    border-radius: 4px;
+    color: white !important;
+    font-size: 1.4rem !important;
+    padding: 7px 28px !important;
+}
+
+.btn-ouline-white:hover{
+	background-color: #179AD6;
+}
+
+.mb-28 {
+	margin-bottom: 28px !important;
+}
 
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1000px) {
 	.w-320 {
 		width: auto;
 	}
@@ -139,7 +168,7 @@
     .trading{
     	 width: 100%;
     background-color: white;
-    padding: 22% 0%;
+    padding: 29% 0%;
     margin: 0;
     }
 
@@ -206,58 +235,10 @@
     	font-size: 35px;
     	padding: 0% 10% 4% 10%;
     }
-    .btn-blue{
-	width: 100%;
-	margin: auto;
-	margin-top: 2.5%;
-	margin-bottom: 2.5%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	border-radius: 0px;
-	}	
-	
-	.btn-blue h3{
-		font-size: 25px;
-	}
-.espacio-btn{
-	padding: 2.5%;
-	
-}
-.espacio-text{
-	text-align: center;
-	padding-left: 0;
-	padding-right: 0;
-	padding-top: 12%;
-	padding-bottom: 19%;
-}
-.espacio-sound{	
-	    padding-top: 0;
-    padding-left: 0;
-    text-align: center;
-    font-size: 21px;
-    font-family: "proximanova-regular-webfont";
-    line-height: 1.5;
-}
-.btn-lightblue{
-	background-color: #179AD6;
-	border-radius: 0px;	
-	width: 250px;	
-	margin: auto;
-	margin-top: 7%;
-	margin-bottom: 19%;
-	}
-.btn-transparent{
-	border: 1px solid white;
-	border-radius: 0px;	
-	width: 250px;
-	margin: auto;
-	margin-top: 7%;
-	margin-bottom: 16%;
-	}
-
-
+    
 .Management h2{
 	padding-top: 20%;
+	padding-bottom: 10%;
 }
 .espacio-2btn{
 	padding: 4% 8%;
@@ -267,8 +248,8 @@
 	margin-top: 0;
 }
 .espacio-text2{
-	padding-left: 15%;
-	padding-right: 18%;
+	padding-left: 10%;
+	padding-right: 13%;
 	padding-top: 10%;
 	font-family: "proximanova-regular-webfont";
 	font-size: 18px;
@@ -280,8 +261,8 @@
 }
 .espacio-please{	
 	padding-top: 8%;
-	margin: 0% 15%;
-	padding-bottom: 3%;
+	margin: 0% 8%;
+	padding-bottom: 8%;
 }
 
 .btn-lightblue2{
@@ -295,7 +276,6 @@
 
 .fotos{
 	
-
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 2%;
@@ -304,11 +284,17 @@
 
 .img-foto{
 	width: 100%;
-}
+	}
 
 .fondo-blanco{
 	background-color: white;
 	padding: 13% 0%;
+}
+
+.Management .col-6, .col-4{
+width: 80%;
+margin-bottom: 10%;
+
 }
 .fotos2{
 	
@@ -324,3 +310,23 @@
 	padding: 8% 0%;
 }
 	
+.text-center-xs {
+	text-align: center;
+}
+
+.btn-blue-dark {
+    color: white;
+    border-color: #002366;
+    background-color: #002366;
+    font-size: 1.2rem !important;
+    padding: 14px 14px !important;
+}
+
+.ph-0 {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.mt-28-xs {
+	margin-top: 28px !important;
+}
