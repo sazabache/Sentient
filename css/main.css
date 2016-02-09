@@ -2,6 +2,7 @@
 	background-image: url("../img/hero-image.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	padding: 14% 5% 5% 5%;
 }
 
@@ -39,6 +40,9 @@
 
 .tres-div{
 	padding: 7px 168px 100px 168px;
+}
+.tres-div .col-4{
+	padding: 14px;
 }
 
 .pe{
@@ -96,7 +100,7 @@ input {
 
 /*** movil***/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
 
     .banner{
     	padding: 35% 10% 5% 10%;
@@ -139,7 +143,6 @@ input {
 
 	.contact-us h2{
 	font-size: 42px;
-	color: 
 	}
 	
 	.contact-us p{
@@ -158,12 +161,16 @@ input {
 	}
 }
 
-@media screen and (max-width: 1300px) {
- 	.tres-div{
-	padding: 7px 21px 10px 21px;
-	}
+@media screen and (max-width: 1400px) {
+ 	.contact-us{
+	padding: 77px 50px 77px 50px;
+}
 
 	.div-home h2{
 	font-size: 35px;
 	}
+
+	.tres-div{
+	padding: 7px 50px 100px 50px;
+}
 }
