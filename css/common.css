@@ -46,6 +46,10 @@ header nav a{
     font-size: 1.2em;
 
 }
+
+header nav a:hover{
+    background-color: #F6F6F6;
+}
 header nav a:first-child{
 border-right: 1px solid #606060;
 }
