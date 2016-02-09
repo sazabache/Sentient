@@ -27,15 +27,7 @@
 .persona img{
 	width: 60%;
 	margin-bottom: 56px;
-	-webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s, height 4s;
 }
-.persona img:hover{
-	width: 70%;
-}
-
-
-
 
 @media screen and (max-width: 640px) {
 	.persona h1{
