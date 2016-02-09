@@ -51,7 +51,7 @@ border-right: 1px solid #606060;
 }
 
 .w-320 {
-    width: 320px;
+    width: 260px;
 }
 
 a{
@@ -92,4 +92,14 @@ footer nav{
 footer p{
     font-size: 0.8em;
     padding-top: 1%;
+}
+
+@media only screen and (max-width: 1000px) {
+.img-logo{
+   position: relative;
+   left: 14%;
+   margin-top: 3.5%;
+   width: 160px;
+}
+
 }
