@@ -180,9 +180,13 @@
     	text-align: center;
     }
     .comilla1{
-	   padding-left: 50%;
-    padding-bottom: 4%;
+	  
+    	padding-bottom: 9%;  
+        position: relative;
+   		left: 50%;
 		}
+
+
 	.container{
 		width: 100%;
 		padding: 0;
@@ -200,6 +204,13 @@
 
 	.trading  p{
 		padding-left: 0;
+		display: block;
+	}
+	.trading span{
+		display: block;
+		padding-top: 15%;
+		text-align: center;
+
 	}
 
 	.trading .col-5 p{
@@ -213,8 +224,10 @@
 
 	.comilla2{;
     -webkit-transform: rotate(180deg);
-   padding-right: 50%;
+   position: relative;
+   		left: 50%;
     padding-bottom: 10%;
+    display: block;
     
     }
 
