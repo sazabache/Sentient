@@ -2,29 +2,38 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Persona</title>	
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">	
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	 <meta name="description" content="Sentient">
+    <meta name="author" content="Sandra Azabache & Patricia Arakawa">
+	<title>Sentient</title>	
+	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">	
 	<link rel="stylesheet" type="text/css" href="css/persona.css">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="index.html">
+	<!-- Bootstrap core CSS -->
+    <link href="css/vendor/bootstrap.css" rel="stylesheet">
 </head>
 <body>
-	<header>		
-			<div class="col-9">
-				<a href="index.html"><img src="img/logo-iconos/sentient-logo.png" alt="Sentient" /></a>
-			</div>
-			
-			<div class="col-3 text-right">
+	<header id="navegador">
+    <div class="navbar">
+        <div class="navbar-header navbar-default">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+          </button>
+          <a href="index.html"><img class="img-logo" src="img/logo-iconos/sentient-logo.png" alt="Sentient" /></a>
+    	</div>
+    	<div class="navbar-collapse collapse" style="height:1px">
+			<div class="nav navbar-nav navbar-right w-320">
 				<nav>
-					
-					<a href="#">About SIM</a>
-					<a href="index.html#contacto">Contact us</a>
-								
+					<a class="" href="aboutus.html">About SIM</a>
+					<a class="" href="index.html#contacto">Contact us</a>			
 				</nav>
-			</div>
-		
-	</header>
+			</div>		
+          </div><!--/.nav-collapse -->
+      </div>
+   </header>
 	<section class="persona text-center text-graymedium">
 		<div class="container-fluid">
 			<h1>Antoine Blondeau</h1>
@@ -35,5 +44,26 @@
 			<p>He holds a MBA from the Paris Graduate School of Management (ESCP) and has studied at the faculties of Economics and Commerce of Chuo University in Tokyo.</p>
 		</div>
 	</section>
+	<footer>
+		<nav>			
+			<li><a href="#">About SIM</a></li>
+			<li><a href="#">Contact us</a></li>	 				
+		</nav>
+		<div class="iconos">
+			<a href="#"><img src="img/logo-iconos/facebook-icon-footer.png" alt="facebook" /></a>
+			<a href=""><img src="img/logo-iconos/twitter-icon.png" alt="twitter" /></a>
+			<a href=""><img src="img/logo-iconos/google-plus-icon.png" alt="google plus" /></a>
+		</div>
+		<nav class="privacy text-graymedium">
+					<li><a class="text-graymedium" href="#">Privancy Policy</a></li>
+					<li>|</li>
+					<li><a class="text-graymedium" href="#">User Agreetment</a></li>
+		</nav>
+		<p class="text-graymedium">©2016 Sentient Technologies Holdings Limited. All Rights Reserved.</p>
+	</footer>
+	<script type="text/javascript" src="/scripts/retina.js"></script>
+	<script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

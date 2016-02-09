@@ -2,30 +2,38 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	 <meta name="description" content="Sentient">
+    <meta name="author" content="Sandra Azabache & Patricia Arakawa">
 	<title>Sentient</title>	
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">	
+	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
-	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">	
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- Bootstrap core CSS -->
+    <link href="css/vendor/bootstrap.css" rel="stylesheet">
 </head>
 <body>
-	<header>		
-			<div class="col-9">
-				<a href="index.html"><img src="img/logo-iconos/sentient-logo.png" alt="Sentient" /></a>
-			</div>
-			
-			<div class="col-3 text-right">
+	<header id="navegador">
+    <div class="navbar">
+        <div class="navbar-header navbar-default">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+          </button>
+          <a href="index.html"><img class="img-logo" src="img/logo-iconos/sentient-logo.png" alt="Sentient" /></a>
+    	</div>
+    	<div class="navbar-collapse collapse" style="height:1px">
+			<div class="nav navbar-nav navbar-right w-320">
 				<nav>
-					
-					<a href="#">About SIM</a>
-					<a href="#contacto">Contact us</a>
-								
+					<a class="" href="aboutus.html">About SIM</a>
+					<a class="" href="index.html#contacto">Contact us</a>			
 				</nav>
-			</div>
-		
-	</header>
-	
+			</div>		
+          </div><!--/.nav-collapse -->
+      </div>
+   </header>
 	<section class="banner text-center">
 		<h1 class="size-h1 text-white">Sentient Investment Management.<br> Trading. Evolved.</h1>
 		<a href="#text-home">
@@ -42,21 +50,21 @@
 					<div class="div-home text-grayheavy">
 						<img src="img/logo-iconos/About-SIM-icon.png" alt="icono-about">
 						<h2 class="size-h2">About SIM</h2>
-						<p class="text-recuadro">Using the world's largest evolutionary computation system and deep learnig, SIM derives trading strategies from previously unseen patterns.</p>
+						<p class="pe">Using the world's largest evolutionary computation system and deep learnig, SIM derives trading strategies from previously unseen patterns.</p>
 					</div>
 				</div>
 				<div class="col-4">
 					<div class="div-home text-grayheavy">
 						<img src="img/logo-iconos/Careers-icon.png" alt="icono-about">
 						<h2 class="size-h2">Careers</h2>
-						<p class="text-recuadro">Join the SIM team and drive the future of automated Al-based trading.</p>
+						<p class="pe">Join the SIM team and drive the future of automated Al-based trading.</p>
 					</div>
 				</div>	
 				<div class="col-4">
 					<div class="div-home text-grayheavy">
 						<img src="img/logo-iconos/Management-icon.png" alt="icono-about">
 						<h2 class="size-h2">Management</h2>
-						<p class="text-recuadro">SIM is led by a veteran executive team width combines Wall Street and Silicon Valley expertise.</p>
+						<p class="pe">SIM is led by a veteran executive team width combines Wall Street and Silicon Valley expertise.</p>
 					</div>
 				</div>
 			</div>
@@ -92,8 +100,10 @@
 		</nav>
 		<p class="text-graymedium">©2016 Sentient Technologies Holdings Limited. All Rights Reserved.</p>
 	</footer>
-	<script src="js/jquery.js"></script>
-	<script src="js/main.js"></script>
+	<script type="text/javascript" src="/scripts/retina.js"></script>
+	<script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

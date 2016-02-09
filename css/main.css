@@ -41,6 +41,11 @@
 	padding: 7px 168px 100px 168px;
 }
 
+.pe{
+	font-size: 16px !important;
+	text-align: center;
+	font-family: "proximanova-regular-webfont";
+}
 .contact-us{
 	background-image: url("../img/background-contac-us.jpg");
 	background-size: cover;
@@ -153,9 +158,9 @@ input {
 	}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
  	.tres-div{
-	padding: 7px 35px 100px 21px;
+	padding: 7px 21px 10px 21px;
 	}
 
 	.div-home h2{
